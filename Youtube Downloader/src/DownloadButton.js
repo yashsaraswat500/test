@@ -4,7 +4,7 @@ import "./DownloadButton.css";
 function DownloadButton({ id, type }) {
   return (
     <div className="download">
-      <h2>Download {type === "mp3" ? "music" : "video"} file</h2>
+      <h2>Download {ty === "mp3" ? "music" : "video"} file</h2>
       <iframe
         className="button-api-frame"
         src={`https://api.vevioz.com/@api/button/${type}/${id}`}
