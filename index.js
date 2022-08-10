@@ -2,7 +2,7 @@ var slideIndex = 0;
 
 showSlide();
 
-// var timer = setInterval(showSlide, 2000);
+// var timer = setInterval(showSlide, 20
 
 var slideContainer = document.getElementById('slideshow-container');
 var slideControl = document.getElementById('slide-control');
